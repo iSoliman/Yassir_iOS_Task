@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		862757672C9EB79800C5A2EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862757662C9EB79800C5A2EC /* AppDelegate.swift */; };
+		862757692C9EB79900C5A2EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862757682C9EB79800C5A2EC /* SceneDelegate.swift */; };
+		8627576B2C9EB79900C5A2EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8627576A2C9EB79900C5A2EC /* ViewController.swift */; };
+		8627576E2C9EB79900C5A2EC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8627576D2C9EB79900C5A2EC /* Base */; };
+		862757702C9EB79A00C5A2EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8627576F2C9EB79A00C5A2EC /* Assets.xcassets */; };
+		862757732C9EB79A00C5A2EC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 862757722C9EB79A00C5A2EC /* Base */; };
+		8627577E2C9EB79B00C5A2EC /* Yassir_iOS_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8627577D2C9EB79B00C5A2EC /* Yassir_iOS_TaskTests.swift */; };
+		862757882C9EB79B00C5A2EC /* Yassir_iOS_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862757872C9EB79B00C5A2EC /* Yassir_iOS_TaskUITests.swift */; };
+		8627578A2C9EB79B00C5A2EC /* Yassir_iOS_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862757892C9EB79B00C5A2EC /* Yassir_iOS_TaskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8627577A2C9EB79B00C5A2EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8627575B2C9EB79800C5A2EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 862757622C9EB79800C5A2EC;
+			remoteInfo = "Yassir iOS Task";
+		};
+		862757842C9EB79B00C5A2EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8627575B2C9EB79800C5A2EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 862757622C9EB79800C5A2EC;
+			remoteInfo = "Yassir iOS Task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		862757632C9EB79800C5A2EC /* Yassir iOS Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yassir iOS Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		862757662C9EB79800C5A2EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		862757682C9EB79800C5A2EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8627576A2C9EB79900C5A2EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8627576D2C9EB79900C5A2EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8627576F2C9EB79A00C5A2EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		862757722C9EB79A00C5A2EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		862757742C9EB79A00C5A2EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		862757792C9EB79B00C5A2EC /* Yassir iOS TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yassir iOS TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8627577D2C9EB79B00C5A2EC /* Yassir_iOS_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yassir_iOS_TaskTests.swift; sourceTree = "<group>"; };
+		862757832C9EB79B00C5A2EC /* Yassir iOS TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yassir iOS TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		862757872C9EB79B00C5A2EC /* Yassir_iOS_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yassir_iOS_TaskUITests.swift; sourceTree = "<group>"; };
+		862757892C9EB79B00C5A2EC /* Yassir_iOS_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yassir_iOS_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		862757602C9EB79800C5A2EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		862757762C9EB79B00C5A2EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		862757802C9EB79B00C5A2EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8627575A2C9EB79800C5A2EC = {
+			isa = PBXGroup;
+			children = (
+				862757652C9EB79800C5A2EC /* Yassir iOS Task */,
+				8627577C2C9EB79B00C5A2EC /* Yassir iOS TaskTests */,
+				862757862C9EB79B00C5A2EC /* Yassir iOS TaskUITests */,
+				862757642C9EB79800C5A2EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		862757642C9EB79800C5A2EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				862757632C9EB79800C5A2EC /* Yassir iOS Task.app */,
+				862757792C9EB79B00C5A2EC /* Yassir iOS TaskTests.xctest */,
+				862757832C9EB79B00C5A2EC /* Yassir iOS TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		862757652C9EB79800C5A2EC /* Yassir iOS Task */ = {
+			isa = PBXGroup;
+			children = (
+				862757662C9EB79800C5A2EC /* AppDelegate.swift */,
+				862757682C9EB79800C5A2EC /* SceneDelegate.swift */,
+				8627576A2C9EB79900C5A2EC /* ViewController.swift */,
+				8627576C2C9EB79900C5A2EC /* Main.storyboard */,
+				8627576F2C9EB79A00C5A2EC /* Assets.xcassets */,
+				862757712C9EB79A00C5A2EC /* LaunchScreen.storyboard */,
+				862757742C9EB79A00C5A2EC /* Info.plist */,
+			);
+			path = "Yassir iOS Task";
+			sourceTree = "<group>";
+		};
+		8627577C2C9EB79B00C5A2EC /* Yassir iOS TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				8627577D2C9EB79B00C5A2EC /* Yassir_iOS_TaskTests.swift */,
+			);
+			path = "Yassir iOS TaskTests";
+			sourceTree = "<group>";
+		};
+		862757862C9EB79B00C5A2EC /* Yassir iOS TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				862757872C9EB79B00C5A2EC /* Yassir_iOS_TaskUITests.swift */,
+				862757892C9EB79B00C5A2EC /* Yassir_iOS_TaskUITestsLaunchTests.swift */,
+			);
+			path = "Yassir iOS TaskUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		862757622C9EB79800C5A2EC /* Yassir iOS Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8627578D2C9EB79B00C5A2EC /* Build configuration list for PBXNativeTarget "Yassir iOS Task" */;
+			buildPhases = (
+				8627575F2C9EB79800C5A2EC /* Sources */,
+				862757602C9EB79800C5A2EC /* Frameworks */,
+				862757612C9EB79800C5A2EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yassir iOS Task";
+			productName = "Yassir iOS Task";
+			productReference = 862757632C9EB79800C5A2EC /* Yassir iOS Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		862757782C9EB79B00C5A2EC /* Yassir iOS TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 862757902C9EB79B00C5A2EC /* Build configuration list for PBXNativeTarget "Yassir iOS TaskTests" */;
+			buildPhases = (
+				862757752C9EB79B00C5A2EC /* Sources */,
+				862757762C9EB79B00C5A2EC /* Frameworks */,
+				862757772C9EB79B00C5A2EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8627577B2C9EB79B00C5A2EC /* PBXTargetDependency */,
+			);
+			name = "Yassir iOS TaskTests";
+			productName = "Yassir iOS TaskTests";
+			productReference = 862757792C9EB79B00C5A2EC /* Yassir iOS TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		862757822C9EB79B00C5A2EC /* Yassir iOS TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 862757932C9EB79B00C5A2EC /* Build configuration list for PBXNativeTarget "Yassir iOS TaskUITests" */;
+			buildPhases = (
+				8627577F2C9EB79B00C5A2EC /* Sources */,
+				862757802C9EB79B00C5A2EC /* Frameworks */,
+				862757812C9EB79B00C5A2EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				862757852C9EB79B00C5A2EC /* PBXTargetDependency */,
+			);
+			name = "Yassir iOS TaskUITests";
+			productName = "Yassir iOS TaskUITests";
+			productReference = 862757832C9EB79B00C5A2EC /* Yassir iOS TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8627575B2C9EB79800C5A2EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					862757622C9EB79800C5A2EC = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					862757782C9EB79B00C5A2EC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 862757622C9EB79800C5A2EC;
+					};
+					862757822C9EB79B00C5A2EC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 862757622C9EB79800C5A2EC;
+					};
+				};
+			};
+			buildConfigurationList = 8627575E2C9EB79800C5A2EC /* Build configuration list for PBXProject "Yassir iOS Task" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8627575A2C9EB79800C5A2EC;
+			productRefGroup = 862757642C9EB79800C5A2EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				862757622C9EB79800C5A2EC /* Yassir iOS Task */,
+				862757782C9EB79B00C5A2EC /* Yassir iOS TaskTests */,
+				862757822C9EB79B00C5A2EC /* Yassir iOS TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		862757612C9EB79800C5A2EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862757702C9EB79A00C5A2EC /* Assets.xcassets in Resources */,
+				862757732C9EB79A00C5A2EC /* Base in Resources */,
+				8627576E2C9EB79900C5A2EC /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		862757772C9EB79B00C5A2EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		862757812C9EB79B00C5A2EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8627575F2C9EB79800C5A2EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8627576B2C9EB79900C5A2EC /* ViewController.swift in Sources */,
+				862757672C9EB79800C5A2EC /* AppDelegate.swift in Sources */,
+				862757692C9EB79900C5A2EC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		862757752C9EB79B00C5A2EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8627577E2C9EB79B00C5A2EC /* Yassir_iOS_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8627577F2C9EB79B00C5A2EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8627578A2C9EB79B00C5A2EC /* Yassir_iOS_TaskUITestsLaunchTests.swift in Sources */,
+				862757882C9EB79B00C5A2EC /* Yassir_iOS_TaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8627577B2C9EB79B00C5A2EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 862757622C9EB79800C5A2EC /* Yassir iOS Task */;
+			targetProxy = 8627577A2C9EB79B00C5A2EC /* PBXContainerItemProxy */;
+		};
+		862757852C9EB79B00C5A2EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 862757622C9EB79800C5A2EC /* Yassir iOS Task */;
+			targetProxy = 862757842C9EB79B00C5A2EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8627576C2C9EB79900C5A2EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8627576D2C9EB79900C5A2EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		862757712C9EB79A00C5A2EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				862757722C9EB79A00C5A2EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8627578B2C9EB79B00C5A2EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8627578C2C9EB79B00C5A2EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8627578E2C9EB79B00C5A2EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yassir iOS Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bridges-Foundation.Yassir-iOS-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8627578F2C9EB79B00C5A2EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yassir iOS Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bridges-Foundation.Yassir-iOS-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		862757912C9EB79B00C5A2EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bridges-Foundation.Yassir-iOS-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yassir iOS Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yassir iOS Task";
+			};
+			name = Debug;
+		};
+		862757922C9EB79B00C5A2EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bridges-Foundation.Yassir-iOS-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yassir iOS Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yassir iOS Task";
+			};
+			name = Release;
+		};
+		862757942C9EB79B00C5A2EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bridges-Foundation.Yassir-iOS-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yassir iOS Task";
+			};
+			name = Debug;
+		};
+		862757952C9EB79B00C5A2EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bridges-Foundation.Yassir-iOS-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yassir iOS Task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8627575E2C9EB79800C5A2EC /* Build configuration list for PBXProject "Yassir iOS Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8627578B2C9EB79B00C5A2EC /* Debug */,
+				8627578C2C9EB79B00C5A2EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8627578D2C9EB79B00C5A2EC /* Build configuration list for PBXNativeTarget "Yassir iOS Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8627578E2C9EB79B00C5A2EC /* Debug */,
+				8627578F2C9EB79B00C5A2EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		862757902C9EB79B00C5A2EC /* Build configuration list for PBXNativeTarget "Yassir iOS TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				862757912C9EB79B00C5A2EC /* Debug */,
+				862757922C9EB79B00C5A2EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		862757932C9EB79B00C5A2EC /* Build configuration list for PBXNativeTarget "Yassir iOS TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				862757942C9EB79B00C5A2EC /* Debug */,
+				862757952C9EB79B00C5A2EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8627575B2C9EB79800C5A2EC /* Project object */;
+}
