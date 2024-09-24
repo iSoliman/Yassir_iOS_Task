@@ -1,0 +1,6 @@
+framework module Pods_Yassir_iOS_Task_Yassir_iOS_TaskUITests {
+  umbrella header "Pods-Yassir iOS Task-Yassir iOS TaskUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

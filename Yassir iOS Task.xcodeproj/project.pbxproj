@@ -7,15 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		614B3BE4EF6CDF852894FB88 /* Pods_Yassir_iOS_Task_Yassir_iOS_TaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B878E34E0E4D301959A374 /* Pods_Yassir_iOS_Task_Yassir_iOS_TaskUITests.framework */; };
+		7C18FC0FA11615887DFAD622 /* Pods_Yassir_iOS_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD7F567A6684A8C6988FE1D3 /* Pods_Yassir_iOS_TaskTests.framework */; };
 		862757672C9EB79800C5A2EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862757662C9EB79800C5A2EC /* AppDelegate.swift */; };
 		862757692C9EB79900C5A2EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862757682C9EB79800C5A2EC /* SceneDelegate.swift */; };
-		8627576B2C9EB79900C5A2EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8627576A2C9EB79900C5A2EC /* ViewController.swift */; };
+		8627576B2C9EB79900C5A2EC /* CharacterListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8627576A2C9EB79900C5A2EC /* CharacterListViewController.swift */; };
 		8627576E2C9EB79900C5A2EC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8627576D2C9EB79900C5A2EC /* Base */; };
 		862757702C9EB79A00C5A2EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8627576F2C9EB79A00C5A2EC /* Assets.xcassets */; };
 		862757732C9EB79A00C5A2EC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 862757722C9EB79A00C5A2EC /* Base */; };
-		8627577E2C9EB79B00C5A2EC /* Yassir_iOS_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8627577D2C9EB79B00C5A2EC /* Yassir_iOS_TaskTests.swift */; };
+		8627577E2C9EB79B00C5A2EC /* CharractersFilterHandlerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8627577D2C9EB79B00C5A2EC /* CharractersFilterHandlerTest.swift */; };
 		862757882C9EB79B00C5A2EC /* Yassir_iOS_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862757872C9EB79B00C5A2EC /* Yassir_iOS_TaskUITests.swift */; };
 		8627578A2C9EB79B00C5A2EC /* Yassir_iOS_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862757892C9EB79B00C5A2EC /* Yassir_iOS_TaskUITestsLaunchTests.swift */; };
+		8662BC252CA120FF009E1813 /* CharacterCellStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8662BC242CA120FF009E1813 /* CharacterCellStyling.swift */; };
+		8662BC272CA1258A009E1813 /* CharacterCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8662BC262CA1258A009E1813 /* CharacterCellViewModel.swift */; };
+		8662BC2B2CA1284C009E1813 /* CharacterDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8662BC2A2CA1284C009E1813 /* CharacterDetails.swift */; };
+		8662BC322CA14A58009E1813 /* CharractersFilterHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8662BC312CA14A58009E1813 /* CharractersFilterHandler.swift */; };
+		8662BC342CA152CF009E1813 /* FilterButtonsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8662BC332CA152CF009E1813 /* FilterButtonsContainer.swift */; };
+		8662BC3C2CA19C36009E1813 /* Stylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8662BC3B2CA19C36009E1813 /* Stylable.swift */; };
+		8662BC3E2CA1CF7C009E1813 /* Stylesheet.Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8662BC3D2CA1CF7C009E1813 /* Stylesheet.Button.swift */; };
+		8662BC402CA1E8CA009E1813 /* CartoonCharacter_6.json in Resources */ = {isa = PBXBuildFile; fileRef = 8662BC3F2CA1E8CA009E1813 /* CartoonCharacter_6.json */; };
+		8662BC422CA1E9BC009E1813 /* ReadJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8662BC412CA1E9BC009E1813 /* ReadJson.swift */; };
+		8662BC472CA1F4AB009E1813 /* CharacterListFetcherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8662BC462CA1F4AB009E1813 /* CharacterListFetcherTest.swift */; };
+		8662BC492CA1F59B009E1813 /* NetworkManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8662BC482CA1F59B009E1813 /* NetworkManagerMock.swift */; };
+		8662BC4E2CA1FF48009E1813 /* CharacterListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8662BC4D2CA1FF48009E1813 /* CharacterListViewModelTest.swift */; };
+		8662BC522CA2739F009E1813 /* AsyncScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8662BC512CA2739F009E1813 /* AsyncScheduler.swift */; };
+		8662BC562CA27501009E1813 /* AsyncSchedulerSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8662BC552CA27501009E1813 /* AsyncSchedulerSpy.swift */; };
+		86CCF7632CA27F7A00DAFCCA /* CharacterCellViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CCF7622CA27F7A00DAFCCA /* CharacterCellViewModelTest.swift */; };
+		86E7701A2C9EBAAB00D91EE2 /* CharacterListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E770192C9EBAAB00D91EE2 /* CharacterListViewModel.swift */; };
+		86E7701C2C9EBB9C00D91EE2 /* CharacterListFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E7701B2C9EBB9C00D91EE2 /* CharacterListFetcher.swift */; };
+		86E7701F2C9EBC3900D91EE2 /* CharacterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E7701E2C9EBC3900D91EE2 /* CharacterResponse.swift */; };
+		86E770232C9EBD5F00D91EE2 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E770222C9EBD5F00D91EE2 /* RequestBuilder.swift */; };
+		86E770252C9EBD9700D91EE2 /* CharacterListRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E770242C9EBD9700D91EE2 /* CharacterListRequestBuilder.swift */; };
+		86E770272C9EBDAD00D91EE2 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E770262C9EBDAD00D91EE2 /* NetworkManager.swift */; };
+		86E770292C9EC38E00D91EE2 /* MethodTypeMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E770282C9EC38E00D91EE2 /* MethodTypeMapper.swift */; };
+		86E7702B2C9EF5A700D91EE2 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E7702A2C9EF5A700D91EE2 /* CharacterCell.swift */; };
+		B75C9B58DC0D15F46D2B7B4E /* Pods_Yassir_iOS_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30351260B70B095D947AEC09 /* Pods_Yassir_iOS_Task.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +62,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24766B0F3A26AEA4D2E01DF9 /* Pods-Yassir iOS Task-Yassir iOS TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yassir iOS Task-Yassir iOS TaskUITests.release.xcconfig"; path = "Target Support Files/Pods-Yassir iOS Task-Yassir iOS TaskUITests/Pods-Yassir iOS Task-Yassir iOS TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		264D0BD949D6011E80A711EC /* Pods-Yassir iOS Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yassir iOS Task.release.xcconfig"; path = "Target Support Files/Pods-Yassir iOS Task/Pods-Yassir iOS Task.release.xcconfig"; sourceTree = "<group>"; };
+		30351260B70B095D947AEC09 /* Pods_Yassir_iOS_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yassir_iOS_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CC96C8232FD8FE5101627EA /* Pods-Yassir iOS Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yassir iOS Task.debug.xcconfig"; path = "Target Support Files/Pods-Yassir iOS Task/Pods-Yassir iOS Task.debug.xcconfig"; sourceTree = "<group>"; };
 		862757632C9EB79800C5A2EC /* Yassir iOS Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yassir iOS Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		862757662C9EB79800C5A2EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		862757682C9EB79800C5A2EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8627576A2C9EB79900C5A2EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8627576A2C9EB79900C5A2EC /* CharacterListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewController.swift; sourceTree = "<group>"; };
 		8627576D2C9EB79900C5A2EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8627576F2C9EB79A00C5A2EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		862757722C9EB79A00C5A2EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		862757742C9EB79A00C5A2EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		862757792C9EB79B00C5A2EC /* Yassir iOS TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yassir iOS TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8627577D2C9EB79B00C5A2EC /* Yassir_iOS_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yassir_iOS_TaskTests.swift; sourceTree = "<group>"; };
+		8627577D2C9EB79B00C5A2EC /* CharractersFilterHandlerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharractersFilterHandlerTest.swift; sourceTree = "<group>"; };
 		862757832C9EB79B00C5A2EC /* Yassir iOS TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yassir iOS TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		862757872C9EB79B00C5A2EC /* Yassir_iOS_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yassir_iOS_TaskUITests.swift; sourceTree = "<group>"; };
 		862757892C9EB79B00C5A2EC /* Yassir_iOS_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yassir_iOS_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8662BC242CA120FF009E1813 /* CharacterCellStyling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCellStyling.swift; sourceTree = "<group>"; };
+		8662BC262CA1258A009E1813 /* CharacterCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCellViewModel.swift; sourceTree = "<group>"; };
+		8662BC2A2CA1284C009E1813 /* CharacterDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetails.swift; sourceTree = "<group>"; };
+		8662BC312CA14A58009E1813 /* CharractersFilterHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharractersFilterHandler.swift; sourceTree = "<group>"; };
+		8662BC332CA152CF009E1813 /* FilterButtonsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButtonsContainer.swift; sourceTree = "<group>"; };
+		8662BC3B2CA19C36009E1813 /* Stylable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stylable.swift; sourceTree = "<group>"; };
+		8662BC3D2CA1CF7C009E1813 /* Stylesheet.Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stylesheet.Button.swift; sourceTree = "<group>"; };
+		8662BC3F2CA1E8CA009E1813 /* CartoonCharacter_6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CartoonCharacter_6.json; sourceTree = "<group>"; };
+		8662BC412CA1E9BC009E1813 /* ReadJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadJson.swift; sourceTree = "<group>"; };
+		8662BC462CA1F4AB009E1813 /* CharacterListFetcherTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListFetcherTest.swift; sourceTree = "<group>"; };
+		8662BC482CA1F59B009E1813 /* NetworkManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerMock.swift; sourceTree = "<group>"; };
+		8662BC4D2CA1FF48009E1813 /* CharacterListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewModelTest.swift; sourceTree = "<group>"; };
+		8662BC512CA2739F009E1813 /* AsyncScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncScheduler.swift; sourceTree = "<group>"; };
+		8662BC552CA27501009E1813 /* AsyncSchedulerSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncSchedulerSpy.swift; sourceTree = "<group>"; };
+		86CCF7622CA27F7A00DAFCCA /* CharacterCellViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCellViewModelTest.swift; sourceTree = "<group>"; };
+		86E770192C9EBAAB00D91EE2 /* CharacterListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewModel.swift; sourceTree = "<group>"; };
+		86E7701B2C9EBB9C00D91EE2 /* CharacterListFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListFetcher.swift; sourceTree = "<group>"; };
+		86E7701E2C9EBC3900D91EE2 /* CharacterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterResponse.swift; sourceTree = "<group>"; };
+		86E770222C9EBD5F00D91EE2 /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		86E770242C9EBD9700D91EE2 /* CharacterListRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListRequestBuilder.swift; sourceTree = "<group>"; };
+		86E770262C9EBDAD00D91EE2 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		86E770282C9EC38E00D91EE2 /* MethodTypeMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodTypeMapper.swift; sourceTree = "<group>"; };
+		86E7702A2C9EF5A700D91EE2 /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+		8E95DBE22189C3BE7739DDD3 /* Pods-Yassir iOS Task-Yassir iOS TaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yassir iOS Task-Yassir iOS TaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-Yassir iOS Task-Yassir iOS TaskUITests/Pods-Yassir iOS Task-Yassir iOS TaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5EC87F498272CD9FB1A0047 /* Pods-Yassir iOS TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yassir iOS TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-Yassir iOS TaskTests/Pods-Yassir iOS TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD7F567A6684A8C6988FE1D3 /* Pods_Yassir_iOS_TaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yassir_iOS_TaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B878E34E0E4D301959A374 /* Pods_Yassir_iOS_Task_Yassir_iOS_TaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yassir_iOS_Task_Yassir_iOS_TaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C831D0B3FDFA4597FE472F1E /* Pods-Yassir iOS TaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yassir iOS TaskTests.release.xcconfig"; path = "Target Support Files/Pods-Yassir iOS TaskTests/Pods-Yassir iOS TaskTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B75C9B58DC0D15F46D2B7B4E /* Pods_Yassir_iOS_Task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C18FC0FA11615887DFAD622 /* Pods_Yassir_iOS_TaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				614B3BE4EF6CDF852894FB88 /* Pods_Yassir_iOS_Task_Yassir_iOS_TaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +144,8 @@
 				8627577C2C9EB79B00C5A2EC /* Yassir iOS TaskTests */,
 				862757862C9EB79B00C5A2EC /* Yassir iOS TaskUITests */,
 				862757642C9EB79800C5A2EC /* Products */,
+				C0C9310B14C4CDF2D5D799E0 /* Pods */,
+				F98216B5CBBC69D215B6E9FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +162,11 @@
 		862757652C9EB79800C5A2EC /* Yassir iOS Task */ = {
 			isa = PBXGroup;
 			children = (
+				8662BC4F2CA27384009E1813 /* Utilitiies */,
+				8662BC2C2CA1479C009E1813 /* Screens */,
+				86E770212C9EBD4400D91EE2 /* Networking */,
 				862757662C9EB79800C5A2EC /* AppDelegate.swift */,
 				862757682C9EB79800C5A2EC /* SceneDelegate.swift */,
-				8627576A2C9EB79900C5A2EC /* ViewController.swift */,
 				8627576C2C9EB79900C5A2EC /* Main.storyboard */,
 				8627576F2C9EB79A00C5A2EC /* Assets.xcassets */,
 				862757712C9EB79A00C5A2EC /* LaunchScreen.storyboard */,
@@ -113,7 +178,13 @@
 		8627577C2C9EB79B00C5A2EC /* Yassir iOS TaskTests */ = {
 			isa = PBXGroup;
 			children = (
-				8627577D2C9EB79B00C5A2EC /* Yassir_iOS_TaskTests.swift */,
+				86CCF7612CA27F5F00DAFCCA /* CharacterCellViewModel */,
+				8662BC532CA274EF009E1813 /* Utilities */,
+				8662BC482CA1F59B009E1813 /* NetworkManagerMock.swift */,
+				8662BC4C2CA1FF38009E1813 /* CharacterListViewModel */,
+				8662BC452CA1F4A1009E1813 /* CharacterListFetcher */,
+				8662BC442CA1F41A009E1813 /* CharractersFilterHandler */,
+				8662BC432CA1EC0B009E1813 /* JSONs */,
 			);
 			path = "Yassir iOS TaskTests";
 			sourceTree = "<group>";
@@ -127,6 +198,236 @@
 			path = "Yassir iOS TaskUITests";
 			sourceTree = "<group>";
 		};
+		8662BC232CA120D0009E1813 /* Cell Styling */ = {
+			isa = PBXGroup;
+			children = (
+				8662BC242CA120FF009E1813 /* CharacterCellStyling.swift */,
+			);
+			path = "Cell Styling";
+			sourceTree = "<group>";
+		};
+		8662BC282CA12825009E1813 /* CharacterDetails */ = {
+			isa = PBXGroup;
+			children = (
+				8662BC292CA12834009E1813 /* View */,
+			);
+			path = CharacterDetails;
+			sourceTree = "<group>";
+		};
+		8662BC292CA12834009E1813 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8662BC2A2CA1284C009E1813 /* CharacterDetails.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8662BC2C2CA1479C009E1813 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8662BC2D2CA147B0009E1813 /* Custom Views */,
+				86E770152C9EB9F800D91EE2 /* Character List */,
+				8662BC282CA12825009E1813 /* CharacterDetails */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8662BC2D2CA147B0009E1813 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				8662BC332CA152CF009E1813 /* FilterButtonsContainer.swift */,
+				8662BC2E2CA147C0009E1813 /* Stylable */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		8662BC2E2CA147C0009E1813 /* Stylable */ = {
+			isa = PBXGroup;
+			children = (
+				8662BC3B2CA19C36009E1813 /* Stylable.swift */,
+				8662BC3D2CA1CF7C009E1813 /* Stylesheet.Button.swift */,
+			);
+			path = Stylable;
+			sourceTree = "<group>";
+		};
+		8662BC352CA184FB009E1813 /* CharacterCell */ = {
+			isa = PBXGroup;
+			children = (
+				8662BC372CA18513009E1813 /* ViewModel */,
+				8662BC362CA1850B009E1813 /* View */,
+			);
+			path = CharacterCell;
+			sourceTree = "<group>";
+		};
+		8662BC362CA1850B009E1813 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8662BC232CA120D0009E1813 /* Cell Styling */,
+				86E7702A2C9EF5A700D91EE2 /* CharacterCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8662BC372CA18513009E1813 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8662BC262CA1258A009E1813 /* CharacterCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8662BC382CA18576009E1813 /* RequestBuilders */ = {
+			isa = PBXGroup;
+			children = (
+				86E770242C9EBD9700D91EE2 /* CharacterListRequestBuilder.swift */,
+				86E770222C9EBD5F00D91EE2 /* RequestBuilder.swift */,
+			);
+			path = RequestBuilders;
+			sourceTree = "<group>";
+		};
+		8662BC432CA1EC0B009E1813 /* JSONs */ = {
+			isa = PBXGroup;
+			children = (
+				8662BC412CA1E9BC009E1813 /* ReadJson.swift */,
+				8662BC3F2CA1E8CA009E1813 /* CartoonCharacter_6.json */,
+			);
+			path = JSONs;
+			sourceTree = "<group>";
+		};
+		8662BC442CA1F41A009E1813 /* CharractersFilterHandler */ = {
+			isa = PBXGroup;
+			children = (
+				8627577D2C9EB79B00C5A2EC /* CharractersFilterHandlerTest.swift */,
+			);
+			path = CharractersFilterHandler;
+			sourceTree = "<group>";
+		};
+		8662BC452CA1F4A1009E1813 /* CharacterListFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				8662BC462CA1F4AB009E1813 /* CharacterListFetcherTest.swift */,
+			);
+			path = CharacterListFetcher;
+			sourceTree = "<group>";
+		};
+		8662BC4C2CA1FF38009E1813 /* CharacterListViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8662BC4D2CA1FF48009E1813 /* CharacterListViewModelTest.swift */,
+			);
+			path = CharacterListViewModel;
+			sourceTree = "<group>";
+		};
+		8662BC4F2CA27384009E1813 /* Utilitiies */ = {
+			isa = PBXGroup;
+			children = (
+				8662BC502CA27393009E1813 /* AsyncScheduler */,
+			);
+			path = Utilitiies;
+			sourceTree = "<group>";
+		};
+		8662BC502CA27393009E1813 /* AsyncScheduler */ = {
+			isa = PBXGroup;
+			children = (
+				8662BC512CA2739F009E1813 /* AsyncScheduler.swift */,
+			);
+			path = AsyncScheduler;
+			sourceTree = "<group>";
+		};
+		8662BC532CA274EF009E1813 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8662BC542CA274F9009E1813 /* AsyncSchedulerSpy */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8662BC542CA274F9009E1813 /* AsyncSchedulerSpy */ = {
+			isa = PBXGroup;
+			children = (
+				8662BC552CA27501009E1813 /* AsyncSchedulerSpy.swift */,
+			);
+			path = AsyncSchedulerSpy;
+			sourceTree = "<group>";
+		};
+		86CCF7612CA27F5F00DAFCCA /* CharacterCellViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				86CCF7622CA27F7A00DAFCCA /* CharacterCellViewModelTest.swift */,
+			);
+			path = CharacterCellViewModel;
+			sourceTree = "<group>";
+		};
+		86E770152C9EB9F800D91EE2 /* Character List */ = {
+			isa = PBXGroup;
+			children = (
+				8662BC352CA184FB009E1813 /* CharacterCell */,
+				86E7701D2C9EBC1900D91EE2 /* Model */,
+				86E770172C9EBA8000D91EE2 /* ViewModel */,
+				86E770162C9EBA7300D91EE2 /* View */,
+			);
+			path = "Character List";
+			sourceTree = "<group>";
+		};
+		86E770162C9EBA7300D91EE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8627576A2C9EB79900C5A2EC /* CharacterListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		86E770172C9EBA8000D91EE2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				86E770192C9EBAAB00D91EE2 /* CharacterListViewModel.swift */,
+				86E7701B2C9EBB9C00D91EE2 /* CharacterListFetcher.swift */,
+				8662BC312CA14A58009E1813 /* CharractersFilterHandler.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		86E7701D2C9EBC1900D91EE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				86E7701E2C9EBC3900D91EE2 /* CharacterResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		86E770212C9EBD4400D91EE2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8662BC382CA18576009E1813 /* RequestBuilders */,
+				86E770262C9EBDAD00D91EE2 /* NetworkManager.swift */,
+				86E770282C9EC38E00D91EE2 /* MethodTypeMapper.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C0C9310B14C4CDF2D5D799E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CC96C8232FD8FE5101627EA /* Pods-Yassir iOS Task.debug.xcconfig */,
+				264D0BD949D6011E80A711EC /* Pods-Yassir iOS Task.release.xcconfig */,
+				8E95DBE22189C3BE7739DDD3 /* Pods-Yassir iOS Task-Yassir iOS TaskUITests.debug.xcconfig */,
+				24766B0F3A26AEA4D2E01DF9 /* Pods-Yassir iOS Task-Yassir iOS TaskUITests.release.xcconfig */,
+				A5EC87F498272CD9FB1A0047 /* Pods-Yassir iOS TaskTests.debug.xcconfig */,
+				C831D0B3FDFA4597FE472F1E /* Pods-Yassir iOS TaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F98216B5CBBC69D215B6E9FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30351260B70B095D947AEC09 /* Pods_Yassir_iOS_Task.framework */,
+				C5B878E34E0E4D301959A374 /* Pods_Yassir_iOS_Task_Yassir_iOS_TaskUITests.framework */,
+				BD7F567A6684A8C6988FE1D3 /* Pods_Yassir_iOS_TaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +435,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8627578D2C9EB79B00C5A2EC /* Build configuration list for PBXNativeTarget "Yassir iOS Task" */;
 			buildPhases = (
+				9F6332DAC7FA4EFE54CD2D41 /* [CP] Check Pods Manifest.lock */,
 				8627575F2C9EB79800C5A2EC /* Sources */,
 				862757602C9EB79800C5A2EC /* Frameworks */,
 				862757612C9EB79800C5A2EC /* Resources */,
+				D0541201349976CED3DAC020 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +454,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 862757902C9EB79B00C5A2EC /* Build configuration list for PBXNativeTarget "Yassir iOS TaskTests" */;
 			buildPhases = (
+				A1B7D569ADA139FBE53AF3BB /* [CP] Check Pods Manifest.lock */,
 				862757752C9EB79B00C5A2EC /* Sources */,
 				862757762C9EB79B00C5A2EC /* Frameworks */,
 				862757772C9EB79B00C5A2EC /* Resources */,
@@ -169,9 +473,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 862757932C9EB79B00C5A2EC /* Build configuration list for PBXNativeTarget "Yassir iOS TaskUITests" */;
 			buildPhases = (
+				C0FA7A0EBD0F669897E0D3A2 /* [CP] Check Pods Manifest.lock */,
 				8627577F2C9EB79B00C5A2EC /* Sources */,
 				862757802C9EB79B00C5A2EC /* Frameworks */,
 				862757812C9EB79B00C5A2EC /* Resources */,
+				510264774EA39A19A61CB2AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,6 +547,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8662BC402CA1E8CA009E1813 /* CartoonCharacter_6.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +560,133 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		510264774EA39A19A61CB2AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yassir iOS Task-Yassir iOS TaskUITests/Pods-Yassir iOS Task-Yassir iOS TaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yassir iOS Task-Yassir iOS TaskUITests/Pods-Yassir iOS Task-Yassir iOS TaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yassir iOS Task-Yassir iOS TaskUITests/Pods-Yassir iOS Task-Yassir iOS TaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F6332DAC7FA4EFE54CD2D41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yassir iOS Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1B7D569ADA139FBE53AF3BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yassir iOS TaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0FA7A0EBD0F669897E0D3A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yassir iOS Task-Yassir iOS TaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0541201349976CED3DAC020 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yassir iOS Task/Pods-Yassir iOS Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yassir iOS Task/Pods-Yassir iOS Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yassir iOS Task/Pods-Yassir iOS Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8627575F2C9EB79800C5A2EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8627576B2C9EB79900C5A2EC /* ViewController.swift in Sources */,
+				86E770272C9EBDAD00D91EE2 /* NetworkManager.swift in Sources */,
+				86E770232C9EBD5F00D91EE2 /* RequestBuilder.swift in Sources */,
+				8662BC2B2CA1284C009E1813 /* CharacterDetails.swift in Sources */,
+				86E7701C2C9EBB9C00D91EE2 /* CharacterListFetcher.swift in Sources */,
+				86E7702B2C9EF5A700D91EE2 /* CharacterCell.swift in Sources */,
+				86E7701A2C9EBAAB00D91EE2 /* CharacterListViewModel.swift in Sources */,
+				8662BC272CA1258A009E1813 /* CharacterCellViewModel.swift in Sources */,
+				8627576B2C9EB79900C5A2EC /* CharacterListViewController.swift in Sources */,
+				8662BC3C2CA19C36009E1813 /* Stylable.swift in Sources */,
+				86E7701F2C9EBC3900D91EE2 /* CharacterResponse.swift in Sources */,
+				8662BC3E2CA1CF7C009E1813 /* Stylesheet.Button.swift in Sources */,
 				862757672C9EB79800C5A2EC /* AppDelegate.swift in Sources */,
+				8662BC252CA120FF009E1813 /* CharacterCellStyling.swift in Sources */,
+				86E770292C9EC38E00D91EE2 /* MethodTypeMapper.swift in Sources */,
 				862757692C9EB79900C5A2EC /* SceneDelegate.swift in Sources */,
+				8662BC342CA152CF009E1813 /* FilterButtonsContainer.swift in Sources */,
+				86E770252C9EBD9700D91EE2 /* CharacterListRequestBuilder.swift in Sources */,
+				8662BC322CA14A58009E1813 /* CharractersFilterHandler.swift in Sources */,
+				8662BC522CA2739F009E1813 /* AsyncScheduler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +694,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8627577E2C9EB79B00C5A2EC /* Yassir_iOS_TaskTests.swift in Sources */,
+				86CCF7632CA27F7A00DAFCCA /* CharacterCellViewModelTest.swift in Sources */,
+				8662BC4E2CA1FF48009E1813 /* CharacterListViewModelTest.swift in Sources */,
+				8627577E2C9EB79B00C5A2EC /* CharractersFilterHandlerTest.swift in Sources */,
+				8662BC422CA1E9BC009E1813 /* ReadJson.swift in Sources */,
+				8662BC492CA1F59B009E1813 /* NetworkManagerMock.swift in Sources */,
+				8662BC472CA1F4AB009E1813 /* CharacterListFetcherTest.swift in Sources */,
+				8662BC562CA27501009E1813 /* AsyncSchedulerSpy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +785,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -416,7 +848,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -437,6 +869,7 @@
 		};
 		8627578E2C9EB79B00C5A2EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CC96C8232FD8FE5101627EA /* Pods-Yassir iOS Task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,6 +882,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +898,7 @@
 		};
 		8627578F2C9EB79B00C5A2EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 264D0BD949D6011E80A711EC /* Pods-Yassir iOS Task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -476,6 +911,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -491,6 +927,7 @@
 		};
 		862757912C9EB79B00C5A2EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5EC87F498272CD9FB1A0047 /* Pods-Yassir iOS TaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +947,7 @@
 		};
 		862757922C9EB79B00C5A2EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C831D0B3FDFA4597FE472F1E /* Pods-Yassir iOS TaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +967,7 @@
 		};
 		862757942C9EB79B00C5A2EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E95DBE22189C3BE7739DDD3 /* Pods-Yassir iOS Task-Yassir iOS TaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +985,7 @@
 		};
 		862757952C9EB79B00C5A2EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24766B0F3A26AEA4D2E01DF9 /* Pods-Yassir iOS Task-Yassir iOS TaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

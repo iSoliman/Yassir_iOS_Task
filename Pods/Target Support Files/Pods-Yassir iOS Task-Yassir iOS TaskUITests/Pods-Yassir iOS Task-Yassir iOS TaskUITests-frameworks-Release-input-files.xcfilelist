@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Yassir iOS Task-Yassir iOS TaskUITests/Pods-Yassir iOS Task-Yassir iOS TaskUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SDWebImageSwiftUI/SDWebImageSwiftUI.framework
